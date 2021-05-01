@@ -54,6 +54,8 @@ Please note that these links can be only accessed through a Widevine Server (for
 **Note that the Widevine Server URL changes every 3-7 days**, so you have to follow the steps below regularly if you want to continue using this playlist.
 
 # And now, the ultimate guide for this particular playlist
+## A faster and easier way to generate your playlist
+I made a script for generating the playlist. [Download the file by clicking here](https://github.com/weareblahs/unifi-tv/raw/main/scripts/uniscript.zip) and follow the steps.
 ## Get Widevine Server URL
 1. Go to [this page](https://playtv.unifi.com.my/EPG/WEBTV/index.html#/live-tv/guide).
 2. Sign in with your Facebook account / Sign up for unifi playTV through Facebook / phone number / email address.
