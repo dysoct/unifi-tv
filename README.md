@@ -67,14 +67,11 @@ I made a script for generating the playlist. [Download the file by clicking here
 
 ## Download the m3u8 file and modify the inputstream.adaptive.license_key to the Widevine Server URL
 1. Download "unifi.m3u8" by [clicking here](https://github.com/weareblahs/unifi-tv/raw/main/unifi.m3u8).
-      - Using wget? then copy the command: ```wget https://github.com/weareblahs/unifi-tv/raw/main/unifi.m3u8```
-      - Or you're using aria2c? then copy the command: ```aria2c https://github.com/weareblahs/unifi-tv/raw/main/unifi.m3u8```
-      - Directly opening this playlist in notepad? Follow these steps: ```Open Notepad > Ctrl + O > Paste "https://github.com/weareblahs/unifi-tv/raw/main/unifi.m3u8" into the File Name section > Open```
-3. Open it with Notepad. (SHORTCUT: Windows key + R > notepad > Enter)
-4. In notepad, press "Ctrl + H" (Replace).
+2. Open it with Notepad. (SHORTCUT: Windows key + R > notepad > Enter)
+3. In notepad, press "Ctrl + H" (Replace).
       - In "Find What", type in "WIDEVINE_SERVER_URL_HERE".
       - In "Replace With", paste the Widevine Server URL in full and remove the quotes.
-5. Save it. Now you have a m3u8 file ready to import.
+4. Save it. Now you have a m3u8 file ready to import.
 
 ## Importing into compatible IPTV players
 ### Before we start the importing
