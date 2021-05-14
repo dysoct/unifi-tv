@@ -99,7 +99,12 @@ NOTE: This playlist only supports TiviMate, PVR Live and TVirl.
 # EPG?
 EPG Link for partial channels: https://weareblahs.github.io/epg/unifitv.xml  
   Generated through Webgrab+Plus.
-  
+## EPG for Polimer and Jaya MAX
+Use *http://raw.githubusercontent.com/epgshare01/share01/master/epg_ripper_IN4.xml.gz* for Indian channels on unifi TV, and change the ID of the indian channels to:
+ - Polimer: Change "CHN" to "Polimer.TV.in"
+ - Jaya Max: Change "CHN" to "Jaya.Max.in"
+ - Colors Cineplex (India Time): Change "CHN" to "Colors.Cineplex.HD.in"
+
 ## EPG: Important Update
 FOUND: unifi PlayTV is powered by Huawei's Envision Video Platform.
  - [Here is an example of the EPG data for this platform.](https://gist.github.com/weareblahs/89fc50e4011094628749b6362187e669)
