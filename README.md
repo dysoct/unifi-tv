@@ -38,13 +38,13 @@ Tested on Unifi Air. It will play on multiple resolutions according to the Inter
 - TVirl
 - PVR Live (Channel Icons needs payment)
 - [Native MPEG-DASH / HLS Player](https://chrome.google.com/webstore/detail/native-mpeg-dash-+-hls-pl/cjfbmleiaobegagekpmlhmaadepdeedn?hl=en) (You have to insert your Widevine license URL when requested)
+- OTT Navigator (Update to the newest version)
 
 # Known players that can't play this playlist
 - Kodi (Can't play even InputStream Adaptive is enabled - my guess is it only plays with add-ons)
 - VLC (Unencrypted DASH only)
 - IPTV Smarters (HLS / MPEG-TS only)
 - CosmiDVR (Signal Weak = 403 Access Denied error)
-- OTT Navigator (HLS / MPEG-TS only)
 - Media Player Classic Home Cinema (uses youtube-dl to get mpd playlist, however, there's no option for inserting license ID)
 - Televizo
 - ZalTV
