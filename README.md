@@ -30,7 +30,7 @@ Tested on Unifi Air. It will play on multiple resolutions according to the Inter
 # Is there cons?
 - Unable to record
 - DRM-protected Streams (Widevine / PlayReady)
-- No timeshift although the link is capable of timeshifting, 
+- No timeshift although the link is capable of timeshifting (Timeshifting works on OTT Navigator by changing the setting for days to 1 and type to Auto)
 - Channel won't follow channel number, but follows the channel sequence on Tivimate (also thanks to @dysoct)
 
 # Players that can play this playlist
