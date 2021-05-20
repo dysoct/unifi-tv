@@ -54,23 +54,30 @@ Please note that these links can be only accessed through a Widevine Server (for
 **Note that the Widevine Server URL changes every 3-7 days**, so you have to follow the steps below regularly if you want to continue using this playlist.
 
 # And now, the ultimate guide for this particular playlist
-## A faster and easier way to generate your playlist
-I made a script for generating the playlist. See [this link](https://github.com/weareblahs/unifi-tv/releases/tag/1.0) for more information.
+## RECOMMENDED: Use this script for the playlist.
+I made a script for generating the playlist. See [this link](https://github.com/weareblahs/unifi-tv/releases/tag/1.0_20210520) for more information. Note that you still have to follow the "Get Widevine Server URL" part at this guide.
 ## Get Widevine Server URL
-1. Go to [this page](https://playtv.unifi.com.my/EPG/WEBTV/index.html#/live-tv/guide).
+(Note that the previous instructions usually returns an "This Service Is Temporarily Unavailable. (632116)" error when constantly getting the Widevine key. Here are the new instructions (Thanks @samleong123):  
+1. Go to [this page](https://playtv.unifi.com.my/EPG/WEBTV/index.html#/live-tv/).
 2. Sign in with your Facebook account / Sign up for unifi playTV through Facebook / phone number / email address.
 3. After signing in, follow these steps:
       - Right Click > Inspect Element.
-      - Click "Application" > Session Storage > https://playtv.unifi.com.my.
-      - Click "wideVine.license.server.url" then copy the url that starts with "https://ottweb.hypp.tv:8064?deviceId=". Make sure to copy in full.
-4. That's it, you have the Widevine URL. Let's get into the next step.
+      - Click "Application" > Local Storage > https://playtv.unifi.com.my.
+      - Search for "AuthResp_VUID".
+      - The result should look like this:  
+        ![Result](https://pictr.com/images/2021/05/20/BP13Ex.png)
+      - Copy the AuthResp_VUID.
+4. Modifying the URL
+      - Follow this template for the URL: ``https://ottweb.hypp.tv:8064?deviceId=[AuthResp_VUID]``  
+        (Paste the AuthResp_VUID at the part of the URL which says [AuthResp_VUID] and remove the quotes ("").
+      - Copy it. we will use the URL at the next step.
 
 ## Download the m3u8 file and modify the inputstream.adaptive.license_key to the Widevine Server URL
 1. Download "unifi.m3u8" by [clicking here](https://github.com/weareblahs/unifi-tv/raw/main/unifi.m3u8).
 2. Open it with Notepad. (SHORTCUT: Windows key + R > notepad > Enter)
 3. In notepad, press "Ctrl + H" (Replace).
       - In "Find What", type in "WIDEVINE_SERVER_URL_HERE".
-      - In "Replace With", paste the Widevine Server URL in full and remove the quotes.
+      - In "Replace With", paste the URL which we got at the previous step.
 4. Save it. Now you have a m3u8 file ready to import.
 
 ## Importing into compatible IPTV players
