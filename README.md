@@ -7,6 +7,9 @@ This is a m3u8 playlist file for Unifi playTV / Unifi TV. These links don't use 
   
 Note that this is also another way to watch Unifi TV through TiviMate through Telekom Malaysia's official servers. It is not required to install the official Unifi TV app.
 
+# 503 Service Unavailable?
+Change the User-Agent to "" (blank).
+
 # Tested on what device / app?
 Works well on Tivimate v2.8.0 and TVirl (Xiaomi Mi Box S).
 ## What Internet Connection?
