@@ -8,6 +8,8 @@ This is a m3u8 playlist file for Unifi playTV / Unifi TV. These links don't use 
   
 Note that this is also another way to watch Unifi TV through TiviMate through Telekom Malaysia's official servers. It is not required to install the official Unifi TV app.
 
+# Pre-built unifi TV playlist
+NOTE: It is strongly recommended for you to get the key by yourself. The playlist below is created with a Free unifi PlayTV account. 
 # 503 Service Unavailable?
 Change the User-Agent to "" (blank).
 
