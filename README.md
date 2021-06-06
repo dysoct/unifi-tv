@@ -40,6 +40,7 @@ Tested on Unifi Air. It will play on multiple resolutions according to the Inter
 - DRM-protected Streams (Widevine / PlayReady)
 - No timeshift although the link is capable of timeshifting (Timeshifting works on OTT Navigator by changing the setting for days to 1 and type to Auto - only works on free channels for free users, such as free-to-air channels)
 - Channel won't follow channel number, but follows the channel sequence on Tivimate (also thanks to @dysoct)
+- No Android emulator support (such as Bluestacks, Nox, Memuplay) (thanks to @arscenu for pointing out about this problem)
 
 # Players that can play this playlist
 - Tivimate
