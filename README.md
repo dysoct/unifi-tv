@@ -10,7 +10,10 @@ Note that this is also another way to watch Unifi TV through TiviMate through Te
 
 # Pre-built unifi TV playlist
 NOTE: It is strongly recommended for you to get the key by yourself. The playlist below is created with a Free unifi PlayTV account.  
-Use the following link: https://github.com/weareblahs/unifi-tv/raw/main/unifi_prebuilt.m3u8
+Github Mirror: https://github.com/weareblahs/unifi-tv/raw/main/unifi_prebuilt.m3u8
+Github Mirror (Shortlink, suitable for direct access on TiviMate): https://tinyurl.com/unifi-tv-gh
+Google Drive mirror: https://drive.google.com/uc?export=download&id=1ejdwBwQ71Tsc7b1KJKME9jCwZZC8T7ci
+Google Drive mirror (Shortlink, suitable for direct access on TiviMate): https://tinyurl.com/unifi-tv-gd
 
 # 503 Service Unavailable?
 Change the User-Agent to "" (blank).
@@ -81,7 +84,7 @@ I made a script for generating the playlist. See [this link](https://github.com/
         (Paste the AuthResp_VUID at the part of the URL which says [AuthResp_VUID] and remove the quotes ("").
       - Copy it. we will use the URL at the next step.
 
-## Download the m3u8 file and modify the inputstream.adaptive.license_key to the Widevine Server URL
+## Download the file and modify the inputstream.adaptive.license_key to the Widevine Server URL
 1. Download "unifi.m3u8" by [clicking here](https://github.com/weareblahs/unifi-tv/raw/main/unifi.m3u8).
 2. Open it with Notepad. (SHORTCUT: Windows key + R > notepad > Enter)
 3. In notepad, press "Ctrl + H" (Replace).
