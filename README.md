@@ -10,10 +10,10 @@ Note that this is also another way to watch Unifi TV through TiviMate through Te
 
 # Pre-built unifi TV playlist
 NOTE: It is strongly recommended for you to get the key by yourself. The playlist below is created with a Free unifi PlayTV account.  
-Github Mirror: https://github.com/weareblahs/unifi-tv/raw/main/unifi_prebuilt.m3u8
-Github Mirror (Shortlink, suitable for direct access on TiviMate): https://tinyurl.com/unifi-tv-gh
-Google Drive mirror: https://drive.google.com/uc?export=download&id=1ejdwBwQ71Tsc7b1KJKME9jCwZZC8T7ci
-Google Drive mirror (Shortlink, suitable for direct access on TiviMate): https://tinyurl.com/unifi-tv-gd
+Github Mirror: https://github.com/weareblahs/unifi-tv/raw/main/unifi_prebuilt.m3u8  
+Github Mirror (Shortlink, suitable for direct access on TiviMate): https://tinyurl.com/unifi-tv-gh  
+Google Drive mirror: https://drive.google.com/uc?export=download&id=1ejdwBwQ71Tsc7b1KJKME9jCwZZC8T7ci  
+Google Drive mirror (Shortlink, suitable for direct access on TiviMate): https://tinyurl.com/unifi-tv-gd  
 
 # 503 Service Unavailable?
 Change the User-Agent to "" (blank).
