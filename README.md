@@ -110,10 +110,8 @@ NOTE: This playlist only supports TiviMate, PVR Live and TVirl.
 1. After opening the app, select "Add Playlist".
 2. Select "Enter URL", then type in the link that you've generated.
 3. Select "Next".
-4. Follow the steps.
-    - When asked for XMLTV URL, type / paste "https://weareblahs.github.io/epg/unifitv.xml".
-    - If you want the compressed option (usually smaller than the original file), use "https://weareblahs.github.io/epg/compressed/unifitv.xml.gz"
-6. You're ready to watch!
+4. Follow the steps. EPG should be automatically detected from the m3u8 file.
+5. You're ready to watch!
 
 # EPG?
 EPG Link for partial channels: https://weareblahs.github.io/epg/unifitv.xml  
