@@ -2,6 +2,9 @@
 
 # Update (15/6/2021)
 Seems that they have fixed this issue, and it's working now.
+
+## Update / Information
+Found out that the timeshifting feature uses Wowza's nDVR (as it uses nDVR in the PlayTV website). (Unconfirmed)
 # Found new channels? ![](https://img.shields.io/github/issues/weareblahs/epg "Current Issue Counter")
 [Submit an issue here and tag "Found Channel"](https://github.com/weareblahs/unifi-tv/issues)
 
