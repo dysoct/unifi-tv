@@ -1,7 +1,8 @@
 ![Cover Image](https://i.ibb.co/PmYn5c5/image.png)
 
 # Update (15/6/2021)
-Seems that they have fixed this issue, and it's working now.
+Seems that they have fixed this issue, and it's working now.  
+Video guides are now available! See "And now, the ultimate guide for this particular playlist" for info.
 
 ## Update / Information
 Found out that the timeshifting feature uses Wowza's nDVR (as it uses nDVR in the PlayTV website). (Unconfirmed)
@@ -73,6 +74,9 @@ Please note that these links can be only accessed through a Widevine Server (for
 # And now, the ultimate guide for this particular playlist
 ## RECOMMENDED: Use this script for the playlist.
 I made a script for generating the playlist. See [this link](https://github.com/weareblahs/unifi-tv/releases/tag/1.0_20210520) for more information. Note that you still have to follow the "Get Widevine Server URL" part at this guide.
+## Video Guides
+[How to get AuthResp_VUID](https://streamable.com/ec7uk7)
+[unifigenerate Walkthrough](https://streamable.com/ii22ji)
 ## Get Widevine Server URL
 (Note that the previous instructions usually returns an "This Service Is Temporarily Unavailable. (632116)" error when constantly getting the Widevine key. Here are the new instructions (Thanks @samleong123):  
 1. Go to [this page](https://playtv.unifi.com.my/EPG/WEBTV/index.html#/live-tv/).
