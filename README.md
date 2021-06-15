@@ -1,35 +1,7 @@
 ![Cover Image](https://i.ibb.co/PmYn5c5/image.png)
 
-# Update (June 14, 2021)
-If you can't watch it even with the right Widevine Server URL (me too), then there's a problem on the playtv@unifi side. Don't use this playlist, and use these URLs for channels temporarily:  
-TV1: https://rtm1hbbtv.secureswiftcontent.com/Origin01/ngrp:RTM1/chunklist_b4064000.m3u8  
-TV2: https://rtm2hbbtv.secureswiftcontent.com/Origin01/ngrp:RTM1/chunklist_b4064000.m3u8  
-TV3: https://mediahomes.github.io/assets/my/ch_tv3.m3u8  
-DidikTV: https://mediahomes.github.io/assets/my/ch_ntv7.m3u8  
-8TV: https://mediahomes.github.io/assets/my/ch_8tv.m3u8  
-TV9: https://mediahomes.github.io/assets/my/ch_tv9.m3u8  
-FOX Sports: https://livecdn.fptplay.net/qnetlive/foxsports_2000.stream/chunklist.m3u8  
-FOX Sports 2: https://livecdn.fptplay.net/qnetlive/foxsports2_2000.stream/chunklist.m3u8  
-FOX Sports 3: https://livecdn.fptplay.net/qnetlive/foxsports3_hls.smil/playlist.m3u8  
-NHK World: https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_4M.m3u8  
-National Geographic (Vietnamese): https://livecdn.fptplay.net/foxlive/natgeohd_hls.smil/playlist.m3u8  
-Nat Geo Wild (Vietnamese): https://htv-drm-live-cdn.fptplay.net/CDN-FPT02/NATGEOWILD-HD-1080p/playlist.m3u8  
-Nat Geo People (Vietnamese): https://htv-drm-live-cdn.fptplay.net/CDN-FPT02/NATGEOWILD-HD-1080p/playlist.m3u8  
-FOXlife (Vietnamese): https://htv-drm-live-cdn.fptplay.net/CDN-FPT02/FOXLIFE-SD-720p/playlist.m3u8  
-Warner TV (Vietnamese): https://htv-drm-live-cdn.fptplay.net/CDN-FPT02/WANNERTV-SD-720p/chunks.m3u8  
-FOX (Vietnamese): https://htv-drm-live-cdn.fptplay.net/CDN-FPT02/FOX-HD-1080p/playlist.m3u8  
-FOX Movies (Vietnamese): https://htv-drm-live-cdn.fptplay.net/CDN-FPT02/FOXMOVIES-HD-1080p/playlist.m3u8  
-CinemaWorld (Vietnamese): https://htv-drm-live-cdn.fptplay.net/CDN-FPT02/CINEWORLD-SD-720p/playlist.m3u8  
-Blue Ant Entertainment (Vietnamese): https://livecdn.fptplay.net/hda/blueantent_hls.smil/playlist.m3u8  
-Blue Ant Extreme (Vietnamese): https://livecdn.fptplay.net/hda/blueantext_hls.smil/playlist.m3u8  
-DW English: https://livecdn.fptplay.net/world/dwenglish_hls.smil/playlist.m3u8  
-France24 (French): http://static.france24.com:80/live/F24_FR_HI_HLS/live_tv.m3u8  
-CNA: https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8  
-BBC Earth (Vietnamese): https://livecdn.fptplay.net/qnetlive/bbcearth_hls.smil/chunklist.m3u8  
-BBC Lifestyle (Vietnamese): https://livecdn.fptplay.net/qnetlive/bbclifestyle_hls.smil/chunklist.m3u8  
-BBC Workd News: https://livecdn.fptplay.net/qnetlive/bbcnew_hls.smil/chunklist.m3u8  
-Cbeebies (Vietnamese): https://livecdn.fptplay.net/hda3/cbeebies_hls.smil/chunklist.m3u8  
-If you found a solution on how to fix, or you want to join the discussion about this problem, [click here](https://github.com/weareblahs/unifi-tv/issues/8)
+# Update (15/6/2021)
+Seems that they have fixed this issue, and it's working now.
 # Found new channels? ![](https://img.shields.io/github/issues/weareblahs/epg "Current Issue Counter")
 [Submit an issue here and tag "Found Channel"](https://github.com/weareblahs/unifi-tv/issues)
 
