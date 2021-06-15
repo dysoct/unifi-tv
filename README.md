@@ -75,7 +75,7 @@ Please note that these links can be only accessed through a Widevine Server (for
 ## RECOMMENDED: Use this script for the playlist.
 I made a script for generating the playlist. See [this link](https://github.com/weareblahs/unifi-tv/releases/tag/1.0_20210520) for more information. Note that you still have to follow the "Get Widevine Server URL" part at this guide.
 ## Video Guides
-[How to get AuthResp_VUID](https://streamable.com/ec7uk7)
+[How to get AuthResp_VUID](https://streamable.com/ec7uk7)  
 [unifigenerate Walkthrough](https://streamable.com/ii22ji)
 ## Get Widevine Server URL
 (Note that the previous instructions usually returns an "This Service Is Temporarily Unavailable. (632116)" error when constantly getting the Widevine key. Here are the new instructions (Thanks @samleong123):  
