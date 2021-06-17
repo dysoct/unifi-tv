@@ -17,16 +17,15 @@ Note that this is also another way to watch Unifi TV through TiviMate through Te
 NOTE: It is strongly recommended for you to get the key by yourself. The playlist below is created with a Free unifi PlayTV account.  
 Github Mirror: https://github.com/weareblahs/unifi-tv/raw/main/unifi_prebuilt.m3u8  
 Github Mirror (Shortlink, suitable for direct access on TiviMate): https://tinyurl.com/unifi-tv-gh  
-Google Drive mirror: https://drive.google.com/uc?export=download&id=1ejdwBwQ71Tsc7b1KJKME9jCwZZC8T7ci  
-Google Drive mirror (Shortlink, suitable for direct access on TiviMate): https://tinyurl.com/unifi-tv-gd  
 
 # 503 Service Unavailable?
 Change the User-Agent to "" (blank).
 
 # Tested on what device / app?
 Works well on Tivimate v2.8.0 and TVirl (Xiaomi Mi Box S).
+
 ## What Internet Connection?
-Tested on Unifi Air. It will play on multiple resolutions according to the Internet speed (ranging from 576p to 1080p). Unifi Fibre Broadband might get better speeds when playing.
+Tested on Unifi Air. It will play on multiple resolutions according to the Internet speed (ranging from 240p to 1080p (576p max on SD channels)). Unifi Fibre Broadband might get better speeds when playing.
 
 # Do you have some of the screenshots for these channels?
 [Screenshots from TiviMate (Channels with subtitles)](https://github.com/weareblahs/unifi-tv/blob/main/screenshots/tivimate.md)  
@@ -41,7 +40,7 @@ Tested on Unifi Air. It will play on multiple resolutions according to the Inter
 # Known Technical Specs?
 - 128Kbps AAC Audio
 - H264 Video (Bitrate depends on resolution)
-- Maximum Resolution is 1920x1080
+- Maximum Resolution is 1920x1080 (1024x576 max on SD channels)
 
 # Is there cons?
 - Unable to record
@@ -55,16 +54,16 @@ Tested on Unifi Air. It will play on multiple resolutions according to the Inter
 - TVirl
 - PVR Live (Channel Icons needs payment)
 - [Native MPEG-DASH / HLS Player](https://chrome.google.com/webstore/detail/native-mpeg-dash-+-hls-pl/cjfbmleiaobegagekpmlhmaadepdeedn?hl=en) (You have to insert your Widevine license URL when requested)
-- OTT Navigator (Update to the newest version)
+- OTT Navigator (Sometimes it got errors regarding license decryption, or 503 error - just refresh or change user-agent)
 
 # Known players that can't play this playlist
 - Kodi (Can't play even InputStream Adaptive is enabled - my guess is it only plays with add-ons)
 - VLC (Unencrypted DASH only)
-- IPTV Smarters (HLS / MPEG-TS only)
+- IPTV Smarters (Xtream codes only - no support of MPEG-DASH even if you use a Xtream Codes proxy to fake an Xtream Codes address)
 - CosmiDVR (Signal Weak = 403 Access Denied error)
-- Media Player Classic Home Cinema (uses youtube-dl to get mpd playlist, however, there's no option for inserting license ID)
-- Televizo
-- ZalTV
+- Media Player Classic Home Cinema (uses youtube-dl to get mpd playlist, however, there's no option for license ID)
+- Televizo (HLS / MPEG-TS streams only)
+- ZalTV (HLS / MPEG-TS streams only)
 
 # Information
 Please note that these links can be only accessed through a Widevine Server (for authorizing). Instructions below.  
