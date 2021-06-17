@@ -1,8 +1,7 @@
 ![Cover Image](https://i.ibb.co/PmYn5c5/image.png)
 
-# Update (15/6/2021)
-Seems that they have fixed this issue, and it's working now.  
-Video guides are now available! See "And now, the ultimate guide for this particular playlist" for info.
+# Update (17/6/2021)
+Radio stations are now available! You can access radio stations offered in unifi TV (988, Suria FM). To access, refresh your playlist.
 
 ## Update / Information
 Found out that the timeshifting feature uses Wowza's nDVR (as it uses nDVR in the PlayTV website). (Unconfirmed)
