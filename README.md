@@ -1,7 +1,7 @@
 ![Cover Image](https://i.ibb.co/PmYn5c5/image.png)
 
-# Update (17/6/2021)
-Radio stations are now available! You can access radio stations offered in unifi TV (988, Suria FM). To access, refresh your playlist.
+# Update (21/6/2021)
+Playlist EPGs are directly taken from playtv@unifi. See weareblahs/epg for credit.
 
 ## Update / Information
 Found out that the timeshifting feature uses Wowza's nDVR (as it uses nDVR in the PlayTV website). (Unconfirmed)
@@ -121,16 +121,5 @@ NOTE: This playlist only supports TiviMate, PVR Live and TVirl.
 5. You're ready to watch!
 
 # EPG?
-EPG Link for partial channels: https://weareblahs.github.io/epg/unifitv.xml  
+EPG Link for all channels: https://weareblahs.github.io/epg/unifitv.xml  
   Generated through Webgrab+Plus.
-## EPG for Polimer and Jaya MAX
-Use *http://raw.githubusercontent.com/epgshare01/share01/master/epg_ripper_IN4.xml.gz* for Indian channels on unifi TV, and change the ID of the indian channels to:
- - Polimer: Change "CHN" to "Polimer.TV.in"
- - Jaya Max: Change "CHN" to "Jaya.Max.in"
- - Colors Cineplex (India Time): Change "CHN" to "Colors.Cineplex.HD.in"
-
-## EPG: Important Update
-FOUND: unifi PlayTV is powered by Huawei's Envision Video Platform.
- - [Here is an example of the EPG data for this platform.](https://gist.github.com/weareblahs/89fc50e4011094628749b6362187e669)
- - If someone made a SiteIni for unifi TV (Unencrypted), please contact me through [my email](https://gist.github.com/weareblahs/dccd48e74be31ec770a09036d97c02a8) and I will process it as soon as possible to update the unifi TV Guide through unifi.com.my.
-   - the SiteIni file will not be uploaded into GitHub.
