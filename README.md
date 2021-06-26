@@ -120,6 +120,5 @@ NOTE: This playlist only supports TiviMate, PVR Live and TVirl.
 4. Follow the steps. EPG should be automatically detected from the m3u8 file.
 5. You're ready to watch!
 
-# EPG?
-EPG Link for all channels: https://weareblahs.github.io/epg/unifitv.xml  
-  Generated through Webgrab+Plus.
+# No EPG?
+Check the XMLTV / EPG settings of your IPTV app - is there an EPG source called "https://weareblahs.github.io/epg/unifitv.xml" (or unifitv on some clients)? If not, then manually add "https://weareblahs.github.io/epg/unifitv.xml" to one of your EPG source.
