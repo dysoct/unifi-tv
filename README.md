@@ -1,14 +1,6 @@
 ![Cover Image](https://i.ibb.co/PmYn5c5/image.png)
 # Update (26/6/2021)
-Starting from yesterday, there seems to be no channel data on playtv@unifi, so your EPG only shows these channels:
- - TV1
- - TV2
- - FOX Movies
- - FOX Family Movies
- - FOX Action Movies
- - Sky News
- - Al Jazeera
-Other channels will show "Channel Information Not Available". I'm investigating into this issue.
+unifi TV EPG should be back to normal now. See weareblahs/epg for details
 # Update (21/6/2021)
 Playlist EPGs are directly taken from playtv@unifi. See weareblahs/epg for credit.
 
