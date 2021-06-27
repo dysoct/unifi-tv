@@ -376,8 +376,8 @@ http://1.9.62.158/PLTV/88888888/224/3221227726/3221227726.mpd
 #EXTINF:-1 group-title="Sports" tvg-id="708" tvg-chno="708" tvg-logo="https://playtv.unifi.com.my:7041/CPS/images/universal/film/logo/201907/20190716/20190716072024251ul7.png",708 FOX Sports 3 HD
 http://1.9.62.158/PLTV/88888888/224/3221227634/3221227634.mpd
 
-#EXTINF:-1 group-title="Radio Stations" tvg-id="CHN" tvg-chno="956" tvg-logo="https://weareblahs.s-ul.eu/unifi-tv/z7NxkSb6",956 988
-http://22283.live.streamtheworld.com/988_FMAAC.aac
+#EXTINF:-1 group-title="Radio Stations" tvg-id="CHN" tvg-chno="956" tvg-logo="https://weareblahs.s-ul.eu/unifi-tv/z7NxkSb6",988
+https://playerservices.streamtheworld.com/api/livestream-redirect/988_FMAAC.aac?DIST=TuneIn
 
-#EXTINF:-1 group-title="Radio Stations" tvg-id="CHN" tvg-chno="958" tvg-logo="https://weareblahs.s-ul.eu/unifi-tv/koUQs6gN",958 Suria FM
-https://22283.live.streamtheworld.com/SURIA_FMAAC.aac
+#EXTINF:-1 group-title="Radio Stations" tvg-id="CHN" tvg-chno="958" tvg-logo="https://weareblahs.s-ul.eu/unifi-tv/koUQs6gN",Suria FM
+https://playerservices.streamtheworld.com/api/livestream-redirect/SURIA_FMAAC.aac?DIST=TuneIn
