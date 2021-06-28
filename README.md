@@ -70,7 +70,7 @@ Use the Direct URL for m3u8 option for automatic updating without getting the VU
 ## Video Guides
 [How to get AuthResp_VUID](https://streamable.com/ec7uk7)  
 [unifigenerate Walkthrough](https://streamable.com/ii22ji)
-## Get Widevine Server URL
+## Get Widevine Server URL (Computer)
 (Note that the previous instructions usually returns an "This Service Is Temporarily Unavailable. (632116)" error when constantly getting the Widevine key. Here are the new instructions (Thanks @samleong123):  
 1. Go to [this page](https://playtv.unifi.com.my/EPG/WEBTV/index.html#/live-tv/).
 2. Sign in with your Facebook account / Sign up for unifi playTV through Facebook / phone number / email address.
@@ -85,7 +85,8 @@ Use the Direct URL for m3u8 option for automatic updating without getting the VU
       - Follow this template for the URL: ``https://ottweb.hypp.tv:8064?deviceId=[AuthResp_VUID]``  
         (Paste the AuthResp_VUID at the part of the URL which says [AuthResp_VUID] and remove the quotes ("").
       - Copy it. we will use the URL at the next step.
-
+## Get Widevine Server URL (Smartphone by using Google Chrome) - Credits to @Arsyad1105
+[Follow this method](https://github.com/weareblahs/unifi-tv/issues/11).
 ## Download the file and modify the inputstream.adaptive.license_key to the Widevine Server URL
 1. Download "unifi.m3u8" by [clicking here](https://github.com/weareblahs/unifi-tv/raw/main/unifi.m3u8).
 2. Open it with Notepad. (SHORTCUT: Windows key + R > notepad > Enter)
