@@ -4,6 +4,9 @@ unifi TV EPG should be back to normal now. See weareblahs/epg for details
 # Update (21/6/2021)
 Playlist EPGs are directly taken from playtv@unifi. See weareblahs/epg for credit.
 
+## Now in testing: Direct URL for m3u8
+You don't have to find the AuthResp_VUID - Use the following URL format on your IPTV client:  
+``https://my-iptv.herokuapp.com/m3u8/unifi-tv?userID=(Username)&clientPasswd=(Password)``
 ## Update / Information
 Found out that the timeshifting feature uses Wowza's nDVR (as it uses nDVR in the PlayTV website). (Unconfirmed)
 # Found new channels? ![](https://img.shields.io/github/issues/weareblahs/epg "Current Issue Counter")
