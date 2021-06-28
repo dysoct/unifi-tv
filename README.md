@@ -1,9 +1,5 @@
 ![Cover Image](https://i.ibb.co/PmYn5c5/image.png)
-# Update (26/6/2021)
-unifi TV EPG should be back to normal now. See weareblahs/epg for details
-# Update (21/6/2021)
-Playlist EPGs are directly taken from playtv@unifi. See weareblahs/epg for credit.
-
+# Update: 28/6/2021
 ## Now in testing: Direct URL for m3u8
 You don't have to find the AuthResp_VUID - Use the following URL format on your IPTV client:  
 ``https://my-iptv.herokuapp.com/m3u8/unifi-tv?userID=(Username)&clientPasswd=(Password)``
