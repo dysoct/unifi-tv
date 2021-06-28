@@ -1,10 +1,10 @@
 ![Cover Image](https://i.ibb.co/PmYn5c5/image.png)
-# Update: 28/6/2021
-## Now in testing: Direct URL for m3u8
+# Recommended option: Direct URL for m3u8
 You don't have to find the AuthResp_VUID - Use the following URL format on your IPTV client:  
-``https://my-iptv.herokuapp.com/m3u8/unifi-tv?userID=(Username)&clientPasswd=(Password)``
-## Update / Information
-Found out that the timeshifting feature uses Wowza's nDVR (as it uses nDVR in the PlayTV website). (Unconfirmed)
+``https://my-iptv.herokuapp.com/m3u8/unifi-tv?userID=(Your Phone Number)&clientPasswd=(Your playtv@unifi Password)``  
+Or if you prefer to do it manually, see [here](https://github.com/weareblahs/unifi-tv#manual-instructions).  
+Mantained and developed by @ohsem, @samleong123 and @weareblahs.
+
 # Found new channels? ![](https://img.shields.io/github/issues/weareblahs/epg "Current Issue Counter")
 [Submit an issue here and tag "Found Channel"](https://github.com/weareblahs/unifi-tv/issues)
 
@@ -12,11 +12,6 @@ Found out that the timeshifting feature uses Wowza's nDVR (as it uses nDVR in th
 This is a m3u8 playlist file for Unifi playTV / Unifi TV. These links don't use normal HLS / MPEG-TS Livestreams, instead, using encrypted ones (MPEG-DASH). Remember, this guide is not used to bypass DRM and doesn't provide Free Links - you need your own unifi TV subscription.  
   
 Note that this is also another way to watch Unifi TV through TiviMate through Telekom Malaysia's official servers. It is not required to install the official Unifi TV app.
-
-# Pre-built unifi TV playlist
-NOTE: It is strongly recommended for you to get the key by yourself. The playlist below is created with a Free unifi PlayTV account.  
-Github Mirror: https://github.com/weareblahs/unifi-tv/raw/main/unifi_prebuilt.m3u8  
-Github Mirror (Shortlink, suitable for direct access on TiviMate): https://tinyurl.com/unifi-tv-gh  
 
 # 503 Service Unavailable?
 Change the User-Agent to "" (blank).
@@ -69,9 +64,9 @@ Tested on Unifi Air. It will play on multiple resolutions according to the Inter
 Please note that these links can be only accessed through a Widevine Server (for authorizing). Instructions below.  
 **Note that the Widevine Server URL changes every 3-7 days**, so you have to follow the steps below regularly if you want to continue using this playlist.
 
-# And now, the ultimate guide for this particular playlist
-## RECOMMENDED: Use this script for the playlist.
-I made a script for generating the playlist. See [this link](https://github.com/weareblahs/unifi-tv/releases/tag/1.0_20210520) for more information. Note that you still have to follow the "Get Widevine Server URL" part at this guide.
+## RECOMMENDED: 
+Use the Direct URL for m3u8 option for automatic updating without getting the VUID manually. See the "Recommended option: Direct URL for m3u8" section.
+# Manual Instructions
 ## Video Guides
 [How to get AuthResp_VUID](https://streamable.com/ec7uk7)  
 [unifigenerate Walkthrough](https://streamable.com/ii22ji)
