@@ -45,9 +45,10 @@ Tested on Unifi Air. It will play on multiple resolutions according to the Inter
 - No timeshift although the link is capable of timeshifting (Timeshifting works on OTT Navigator by changing the setting for days to 1 and type to Auto - only works on free channels for free users, such as free-to-air channels)
 - Channel won't follow channel number, but follows the channel sequence on Tivimate (also thanks to @dysoct)
 - No Android emulator support (such as Bluestacks, Nox, Memuplay) (thanks to @arscenu for pointing out about this problem)
+  - Will test it on Windows 11 when it start supporting Android apps
 
 # Players that can play this playlist
-- Tivimate
+- TiviMate (Recommended due to it didn't return any errors)
 - TVirl
 - PVR Live (Channel Icons needs payment)
 - [Native MPEG-DASH / HLS Player](https://chrome.google.com/webstore/detail/native-mpeg-dash-+-hls-pl/cjfbmleiaobegagekpmlhmaadepdeedn?hl=en) (You have to insert your Widevine license URL when requested)
