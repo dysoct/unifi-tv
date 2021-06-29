@@ -3,7 +3,7 @@
 You don't have to find the AuthResp_VUID - Use the following URL format on your IPTV client:  
 ``https://my-iptv.herokuapp.com/m3u8/unifi-tv?userID=(Your Phone Number)&clientPasswd=(Your playtv@unifi Password)``  
 Or a more user-friendly version, where you just have to type in your username / password, then click / tap "Generate":  
-[``https://unifiplaytvdrm.samsam123.tk/``](https://unifiplaytvdrm.samsam123.tk/) (mantained by @samleong123)
+[``https://unifiplaytvdrm.samsam123.tk/``](https://unifiplaytvdrm.samsam123.tk/) (mantained by @samleong123)  
 Or if you prefer to do it manually, see [here](https://github.com/weareblahs/unifi-tv#manual-instructions).  
 Mantained and developed by @ohsem, @samleong123 and @weareblahs. [See project here](https://github.com/ohsem/my-iptv).
 
