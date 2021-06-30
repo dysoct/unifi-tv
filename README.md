@@ -8,6 +8,8 @@ Or a more user-friendly version, where you just have to type in your username / 
 [``https://unifiplaytvdrm.samsam123.tk/``](https://unifiplaytvdrm.samsam123.tk/) (mantained by @samleong123)  
 Or if you prefer to do it manually, see [here](https://github.com/weareblahs/unifi-tv#manual-instructions).  
 Mantained and developed by @ohsem, @samleong123 and @weareblahs. [See project here](https://github.com/ohsem/my-iptv).
+## Any problem regarding the server?
+Before you submit an issue, check the status of the server [here](https://stats.uptimerobot.com/kMzqWFnVqm)
 
 # Found new channels? ![](https://img.shields.io/github/issues/weareblahs/epg "Current Issue Counter")
 [Submit an issue here and tag "Found Channel"](https://github.com/weareblahs/unifi-tv/issues)
