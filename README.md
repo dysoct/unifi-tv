@@ -97,7 +97,7 @@ Use the Direct URL for m3u8 option for automatic updating without getting the VU
 ## Get Widevine Server URL (Smartphone by using Google Chrome) - Credits to @Arsyad1105
 [Follow this method](https://github.com/weareblahs/unifi-tv/issues/11).
 ## Download the file and modify the inputstream.adaptive.license_key to the Widevine Server URL
-1. Download "unifi.m3u8" by [clicking here](https://github.com/weareblahs/unifi-tv/raw/main/unifi.m3u8).
+1. Download "unifi.m3u8" by [clicking here](https://github.com/weareblahs/unifi-tv/raw/main/manual/unifi.m3u8).
 2. Open it with Notepad. (SHORTCUT: Windows key + R > notepad > Enter)
 3. In notepad, press "Ctrl + H" (Replace).
       - In "Find What", type in "WIDEVINE_SERVER_URL_HERE".
