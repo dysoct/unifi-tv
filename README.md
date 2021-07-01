@@ -1,6 +1,8 @@
 ![Cover Image](https://i.ibb.co/PmYn5c5/image.png)
 ## Before you use this playlist
 This playlist won't support emulators (such as Nox and BlueStacks) - mostly due to Widevine issues. See [this discussion thread](https://raw.githubusercontent.com/weareblahs/unifi-tv/main/dev/unifitv.ejs) for more information. You can use a real device - no matter it's smartphones or TV boxes (sideload TiviMate if your TV Box isn't certified by Google) for this playlist.
+## Channel Searching?
+Now finding links for the other unifi Sports channels for Tokyo Olympics 2020 (unifi Sports 6 - unifi Sports 13). Create an issue with the "Found Channels" tag if you found these channels.
 # Recommended option: Direct URL for m3u8
 You don't have to find the AuthResp_VUID - Use the following URL format on your IPTV client:  
 ``https://my-iptv.herokuapp.com/m3u8/unifi-tv?userID=(Your Phone Number)&clientPasswd=(Your playtv@unifi Password)``  
