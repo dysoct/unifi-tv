@@ -1,6 +1,9 @@
 ![Cover Image](https://i.ibb.co/PmYn5c5/image.png)
 ## Before you use this playlist
-This playlist won't support emulators (such as Nox and BlueStacks) - mostly due to Widevine issues. See [this discussion thread](https://raw.githubusercontent.com/weareblahs/unifi-tv/main/dev/unifitv.ejs) for more information. You can use a real device - no matter it's smartphones or TV boxes (sideload TiviMate if your TV Box isn't certified by Google) for this playlist.
+This playlist won't support emulators (such as Nox and BlueStacks) - mostly due to Widevine issues. See [this discussion thread](https://gist.github.com/weareblahs/89fc50e4011094628749b6362187e669#gistcomment-3770390) for more information. You can use a real device - no matter it's smartphones or TV boxes (sideload TiviMate if your TV Box isn't certified by Google) for this playlist.
+
+Raspberry Pi 4 users? Use KonstaKANG's [Android TV Build](https://konstakang.com/devices/rpi4/) for this playlist. Install / Sideload TiviMate or TVirl on your Raspberry Pi 4 through your flash drive. Subtitle works on both TiviMate and TVirl.
+
 ## Channel Searching?
 Now finding links for the other unifi Sports channels for Tokyo Olympics 2020 (unifi Sports 6 - unifi Sports 13). Create an issue with the "Found Channels" tag if you found these channels.
 # Recommended option: Direct URL for m3u8
