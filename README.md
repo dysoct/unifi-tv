@@ -14,7 +14,10 @@ Or a more user-friendly version, where you just have to type in your username / 
 Or if you prefer to do it manually, see [here](https://github.com/weareblahs/unifi-tv#manual-instructions).  
 Mantained and developed by @ohsem, @samleong123 and @weareblahs. [See project here](https://github.com/ohsem/my-iptv).
 ## Any problem regarding the server?
-Before you submit an issue, check the status of the server [here](https://stats.uptimerobot.com/kMzqWFnVqm)
+Before you submit an issue, check the status of the servers [here](https://stats.uptimerobot.com/kMzqWFnVqm). Or you can check the status for a specific server:  
+ - [unifiplaytvdrm.samsam123.tk](https://stats.uptimerobot.com/kMzqWFnVqm/788565120)
+   - [Backend Server - used for m3u8 file generation](https://stats.uptimerobot.com/kMzqWFnVqm/788564461)
+ - [my-iptv.herokuapp.com - used for m3u8 file generation](https://stats.uptimerobot.com/kMzqWFnVqm/788564964)
 
 # Found new channels? ![](https://img.shields.io/github/issues/weareblahs/epg "Current Issue Counter")
 [Submit an issue here and tag "Found Channel"](https://github.com/weareblahs/unifi-tv/issues)
